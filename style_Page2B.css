@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF2D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15%;
+}
+
+h1 {
+    color: rgb(20, 110, 245);
+}
+a{
+    text-decoration: none;
+}
+
+#box2 {
+    height: 25%;
+    width: 30%;
+    text-align: center;
+    line-height: 2rem;
+    background-color: #F1F1F2;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    border: 2px solid wheat;
+    border-radius: 2rem;
+}
+
+#inp {
+    margin-top: 1.5rem;
+}
+
+#box2 button {
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgb(20, 110, 245);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    transition: 1s;
+}
+
+#box2 button:hover {
+    padding-right: 40px;
+    letter-spacing: 2.5px;
+}
